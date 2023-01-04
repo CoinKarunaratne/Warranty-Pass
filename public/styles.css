@@ -1,0 +1,224 @@
+body {
+  overflow-x: hidden;
+  background-color: #FAF9F6
+}
+
+form {
+  display: inline;
+}
+
+.nav-item{
+  font-family: 'DM Sans', sans-serif;
+  margin-left: 50px;
+}
+
+.Logo {
+  height : 120px;
+  width : 160px;
+}
+
+i.fa-brands {
+  margin-top: 20px;
+  color : #EDEADE;
+  width: 40px;
+}
+
+i.fa-brands:first-child {
+  margin-left: 100px;
+}
+
+ul li{
+  margin-left: 100px;
+}
+
+.container-fluid{
+  margin-top : 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+button[name="Login"]{
+  font-family: 'Inter', sans-serif;
+  padding : 10px 30px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+button[name="Register"]{
+  font-family: 'Inter', sans-serif;
+  color: #EDEADE;
+  background-color: #1DB954;
+  margin-right: 10px;
+  padding : 10px 30px;
+  font-size: 17px
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  text-align: left;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 40px
+}
+
+.Heading {
+  display : inline-block;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+
+.menuItems {
+  text-align: right;
+}
+
+img[name="PS5"]{
+  z-index: -1;
+  position: relative;
+  left: 570px;
+  height: 700px;
+  width : 1100px
+}
+
+
+.middle-container{
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
+
+p[name="middlePara"]{
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 250px;
+  width: 0px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.lastPara {
+  margin : 0 70px;
+  text-align: center;
+  font-size: 15px;
+}
+
+button[name="lb"]{
+  font-family: 'Inter', sans-serif;
+  color: #EDEADE;
+  background-color: #1DB954;
+  margin: 100px 0;
+  padding : 10px 30px;
+  font-size: 17px;
+  font-weight: 600
+}
+
+span {
+  font-weight: 400;
+}
+
+.bottom-container {
+  padding : 70px;
+  background-color: #252525;
+  position: relative;
+  height : 350px
+}
+
+.footer-logo {
+  height : 70px;
+  width : 350px;
+}
+
+h5 {
+  color: #EDEADE;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.lp {
+  color : #EDEADE;
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top:30px
+}
+
+.btn.btn-outline-secondary {
+  width : 80px;
+}
+
+div.input-group{
+  width : 400px
+}
+
+.mailb {
+  color: #EDEADE;
+background-color:  #1DB954;
+}
+
+#button-addon2 {
+  background-color: #1DB954;
+}
+
+.contact {
+  margin-left: 100px
+}
+
+.trademark{
+  position: relative;
+  right: 30px;
+  width: auto;
+  text-align: right;
+}
+
+a {
+  font-size: 12px;
+  color: #EDEADE;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+hr {
+  position: relative;
+  left: 100px;
+  margin: 20px 0;
+  width: 1200px;
+  color: #EDEADE;
+}
+
+.tradeP{
+  font-size: 12px;
+  color: #EDEADE;
+  display : inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}

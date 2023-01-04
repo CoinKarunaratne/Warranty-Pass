@@ -1,0 +1,61 @@
+html, body {
+  height : 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.register {
+  background-color: #F6F6F6;
+  padding: 120px 150px;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 12px;
+  margin-left: 140px
+}
+
+.form-control{
+  height: 40px;
+  width : 100%
+}
+
+i {
+  margin-right: 7px
+}
+
+.btn {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 0 10px 0
+}
+
+.local {
+  color: white;
+  background-color: #252525;
+}
+
+.image{
+  height : 100%;
+  width: 50%;
+  float: right;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden
+}
