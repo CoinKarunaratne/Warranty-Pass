@@ -1,0 +1,213 @@
+body {
+  overflow-x: hidden;
+  background-color: #FAF9F6;
+}
+
+.nav-item{
+  font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+  padding-top: 0px;
+}
+
+.container-fluid{
+  height: 80px;
+  background-color: #36454F;
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+.container{
+  margin-top: 80px;
+}
+
+input.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Logo {
+  height : 120px;
+  width : 160px;
+}
+
+#button-addon2 {
+  background-color: #1DB954;
+  border : 0
+}
+
+.input-group {
+  width : 350px;
+}
+
+.namecard {
+  border: 1px white;
+  border-style: solid;
+  border-radius: 16px;
+  height: 50px;
+  width : 200px;
+  color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.nameFloat{
+  margin-right: 50px;
+  float: right;
+}
+
+h3{
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+h4{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+button.btn-dark{
+  margin-top: 5px;
+  margin-left: 30px;
+  width: 100px
+}
+
+.col1 {
+  padding: 20px 70px;
+}
+
+.glass{
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glass[name = "imageContainer"]{
+  height: 500px;
+  width: 550px;
+}
+
+.glass[name = "timeContainer"]{
+  height : 100px;
+  width : 550px;
+  margin-top: 30px;
+  padding: 20px 40px;
+}
+
+.glass img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ overflow: hidden;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.progress-bar {
+  background-color: #1DB954
+}
+/* First Column Over */
+
+.colSec {
+  height: 600px;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.glass[name = "contentContainer"]{
+  height: 170px;
+  width: 400px;
+  margin-top: 20px;
+  justify-content: center;
+  background: white;
+  padding: 15px 25px 0 25px;
+}
+
+h2 {
+  color: #252525;
+  font-size: 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600px;
+  text-align: left;
+}
+
+.buttonDiv{
+  padding: 10px;
+}
+
+.editbtn{
+  color : white;
+  font-size: 15px;
+}
+
+::-webkit-scrollbar {
+  width : 0px
+}
+
+.addNew {
+  background-color: #252525;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #EDEADE;
+  width: 400px
+}
+
+/* New Item Submition */
+
+.newItem {
+  display:none;
+  backdrop-filter : blur(50px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #FAF9F6;
+  padding: 40px;
+  height: 750px;
+  width: 500px;
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  z-index: 9;
+}
+
+.productSubmit {
+  font-size: 15px;
+  position: relative;
+  left: 8px;
+  margin-top: 15px;
+  height: 40px;
+}
+
+.blur {
+  filter : blur(20px);
+  pointer-events: none
+}
+
+.close{
+  border-radius: 0;
+  background-color: red;
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  bottom: 718px;
+  left: 466px;
+  border-top-right-radius: 16px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+.form-select:focus {
+  border-color: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.timeRemaining {
+padding: 8px;
+}
